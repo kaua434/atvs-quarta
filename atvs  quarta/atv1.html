@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Vídeo locadora JS</title>
+</head>
+<body>
+
+        <h1>Vídeo locadora JS</h1>
+        <hr>
+        <form onsubmit="return false;">
+            <label for="titulo">Título do Filme:</label>
+            <input type="text" id="titulo" placeholder="Insira o título do filme" required>
+            <label for="duracao">Duração do Filme (em minutos):</label>
+            <input type="number" id="duracao" placeholder="Insira a duração do filme" required>
+            <input type="submit" value="Converter" onclick="converterDuracao()">
+        </form>
+    
+    
+        <div class="resultado" id="resultado"></div>
+
+        <script src="./script1.js"></script>
+
+</body>
+</html>
